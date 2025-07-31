@@ -8,5 +8,9 @@ namespace Batch16Oops
 {
     internal class SushantK
     {
+        static void Main()
+        {
+            Console.WriteLine("Hello..it's me");
+        }
     }
 }

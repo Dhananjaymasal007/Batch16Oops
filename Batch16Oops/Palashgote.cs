@@ -8,5 +8,9 @@ namespace Batch16Oops
 {
     internal class Palashgote
     {
+        static void Main()
+        {
+            Console.WriteLine("Hello..it's Palash");
+        }
     }
 }
