@@ -8,5 +8,9 @@ namespace Batch16Oops
 {
     internal class Mahiikhar
     {
+        static void main()
+        {
+         
+        }
     }
 }
