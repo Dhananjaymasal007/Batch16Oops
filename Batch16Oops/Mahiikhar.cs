@@ -10,8 +10,10 @@ namespace Batch16Oops
     {
         static void main()
         {
+            int a=10, b=20;
 
-            Console.WriteLine("Hello");
+            Console.WriteLine($"Hello{a+b}");
+
 
         }
     }
