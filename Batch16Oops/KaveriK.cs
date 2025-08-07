@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace Batch16Oops
 {
-    internal class Palashgote
+    internal class KaveriK
     {
-        static void Main()
-        {
-            Console.WriteLine("Hello..it's Palash");
-        }
     }
 }
