@@ -17,7 +17,7 @@ namespace Batch16Oops
         static void Main()
         {
             
-            int incvalue = 10;
+            int incvalue = Convert .ToInt32 (Console.ReadLine());
             Console.WriteLine($"before increment value:{incvalue}");
 
             IncrementValue(ref incvalue);

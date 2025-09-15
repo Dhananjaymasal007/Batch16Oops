@@ -6,36 +6,27 @@ using System.Threading.Tasks;
 
 namespace Batch16Oops
 {
-
-    public class DefaultCOnstructorExample
+    public class DEfaultconstructor
     {
-
-        public int value;
-
-        //default constructor
-
-        public DefaultCOnstructorExample()
+        public DEfaultconstructor()
         {
-            value = 10;
-
+            int value;
         }
         public void Display()
+
         {
-            Console.WriteLine("Test " + value);
-
-        }
-
-    }
-    internal class DefaultConstructor
-    {
-        static void Main()
-        {
-
-            //object createion -
-            DefaultCOnstructorExample example = new DefaultCOnstructorExample();
-            example.Display();
-            //}
-
+            int value = 10000;
+            Console.WriteLine($"Default constructor value = {value}");
         }
     }
-}
+        internal class Defaultconstructor
+        {
+            static void Main()
+            {
+                DEfaultconstructor obj = new DEfaultconstructor();
+                obj.Display();
+
+
+            }
+        }
+    }
